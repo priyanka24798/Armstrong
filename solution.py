@@ -7,7 +7,7 @@ def checkArmstrong(n):
         sum = 0
         while(n > 0):
                 m = n % 10
-                sum = m **2
+                sum = m **3
                 n = n//10
         if(sum == n):
                 return True
