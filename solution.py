@@ -3,13 +3,13 @@
 
 def checkArmstrong(n):
         
-        
+        num = n
         sum = 0
         while(n > 0):
                 m = n % 10
                 sum = sum + m **3
                 n = n//10
-        if(sum == n):
+        if(sum == num):
                 return True
         else:
                 return False
